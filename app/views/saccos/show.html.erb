@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @sacco, class:"d-inline-flex p-2"%>
+
+<div >
+  <%= link_to "Edit this sacco", edit_sacco_path(@sacco) %> |
+  <%= link_to "Back to saccos", saccos_path %>
+
+  <%= button_to "Destroy this sacco", @sacco, method: :delete %>
+</div>

@@ -1,0 +1,100 @@
+.profileCard{
+    width: 325px;
+    height: 139px;
+    border-radius: 5px;
+    margin-top: 70px;
+    background-color: var(--panelBCG);
+    
+}
+
+.profileCardContent{
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.profileTrips{
+    width: 100px;
+    overflow: hidden;
+}
+
+.profileActivitiesContent h5{
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #4b5259;
+}
+
+.profileActivitiesContent p{
+    font-weight: 400;
+    font-size: 0.99em;
+    white-space: nowrap; 
+    width: 70px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    color: #797d91;
+}
+
+.profileActivitiesContent{
+    display: flex;
+}
+
+.name{
+    white-space: nowrap; 
+    width: 100px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.occupation{
+    white-space: nowrap; 
+    width: 100px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    font-weight: lighter;
+    font-size: 15px;
+    color: var(--gray);
+}
+
+.profileCardContentRight{
+    margin-left: 30px;
+}
+
+.nameOccupation{
+    margin-top: 15px;
+}
+
+.profileBtn{
+    height: 25px;
+    width: 100px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    color: var(--gray);
+    padding: 2px;
+    text-align: center;
+    font-size: smaller;
+    margin-top: 20px;
+    background-color: #556ee6 !important;
+}
+.wallpaperTop{
+    background-image: linear-gradient(to right, #d5daf9, #d5daf9);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 325px;
+    height: 100px;
+}
+
+.wallpaperText{
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+.wallpaperText p{
+    text-transform: capitalize;
+    font-size: 1.01562rem;
+    font-weight: 500;
+    color: #556ee6;
+}

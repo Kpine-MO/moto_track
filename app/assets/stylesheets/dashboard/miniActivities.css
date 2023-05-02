@@ -1,0 +1,30 @@
+.miniActivity{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    width: 190px;
+    border-radius: 5px
+}
+
+.miniActivities{
+    display: flex;
+    gap: 20px;
+}
+
+.miniActivityLeft p{
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #797d91;
+}
+
+.miniActivityRightSVG{
+    background-color: #556ee6 !important;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 15px;
+}

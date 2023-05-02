@@ -1,0 +1,14 @@
+.forms{
+    border-radius: 10px;
+}
+
+.inputs{
+    width: 400px;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}

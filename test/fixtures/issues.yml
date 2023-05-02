@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  vehicle: MyString
+  category: MyString
+  description: MyString
+  settled_by: MyString
+  status: MyString
+  user: one
+
+two:
+  vehicle: MyString
+  category: MyString
+  description: MyString
+  settled_by: MyString
+  status: MyString
+  user: two

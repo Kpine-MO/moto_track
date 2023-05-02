@@ -1,0 +1,105 @@
+.headerContainer{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+
+.header{
+    text-transform: capitalize;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+
+}
+
+.image{
+    width: 250px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.profile img{
+    width: 100%;
+    height: 350px;
+    transition: 0.5s all ease-in-out;
+}
+
+.profile:hover img {
+    transform: scale(1.2);
+    z-index: 3;
+}
+
+.membersHolder{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+}
+
+.profile p{
+    text-transform: capitalize;
+    color: var(--grayLight);
+    font-size: medium;
+    font-weight: lighter;
+}
+
+.profile h4{
+    text-transform: capitalize;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.profile{
+    position: relative;
+    cursor: pointer;
+}
+
+.socialLinks{
+    position: absolute;
+    display: block;
+    top: 30%;
+    background-color: white;
+    color: var(--grayLight);
+    padding: 6px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    opacity: 0;
+    transform: translate(-0.9px);
+    transform-origin: left;
+    transition: ease-in-out 0.5s all;
+}
+
+.profile:hover .socialLinks{
+    opacity: 1;
+    z-index: 100;
+}
+
+.socialLinks .bi-facebook{
+    cursor: pointer;
+    transform: .6s all;
+}
+
+.socialLinks .bi-facebook:hover{
+    color: var(--blue);
+}
+
+.socialLinks .bi-twitter{
+    cursor: pointer;
+    transform: .6s all;
+}
+
+.socialLinks .bi-twitter:hover{
+    color: skyblue;
+}
+
+.socialLinks .bi-instagram{
+    cursor: pointer;
+    transform: .6s all;
+}
+
+.socialLinks .bi-instagram:hover{
+    color: gold;
+}

@@ -1,0 +1,146 @@
+.servicesContainer{
+    height: fit-content;
+    width: 100%;
+    padding-top: 50px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.serviceHeader{
+    display: flex;
+    justify-content: center;
+}
+
+.borderServ{
+    margin-left: 70px;
+}
+
+.serviceParagraph{
+    text-align: center;
+    width: 50%;
+    margin: 40px auto;
+}
+
+.serviceParagraph p{
+    font-size: larger;
+    font-weight: lighter;
+    color: var(--grayLight);
+}
+
+.serviceCard{
+    width: 90%;
+    margin: 0 auto;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.wholeCard .hexagon {
+    position: relative;
+    height: 150px;
+    width: 130px;
+    background: var(--blue);
+    left: 34px;
+  }
+  .hexagon:before, .double:after {
+    position: absolute;
+    content: '';
+  }
+  .hexagon:before {
+    top: 2px;  /* border width */
+    left: 2px;  /* border width */
+    height: calc(100% - 4px);  /* 100% - (2 * border width) */
+    width: calc(100% - 4px);  /* 100% - (2 * border width) */
+    background: white;
+  }
+  .hexagon, .hexagon:before, .double:after {
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }
+  
+  .hexagon h6{
+    color: var(--blue);
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    text-align: center;
+    font-size: medium;
+    bottom: 50px;
+  }
+
+  .wholeCard{
+    text-align: center;
+    width:  200px;
+    margin: 0 auto;
+  }
+
+  .borderSmall{
+    margin: 20px 0;
+    margin-left: 80px;
+  }
+
+  .cardTitle{
+    margin-top: 40px;
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+ .cardParagraph{
+    width: 360px;
+    margin-left: -80px;
+    color: var(--grayLight);
+    font-weight: lighter;
+ }
+
+ .cardParagraph p{
+    font-size: medium;
+ }
+
+ .allServicesBtn{
+    width: 200px;
+    height: 55px;
+    background-color: var(--blue);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 0.89em;
+    position: relative;
+    z-index: 2;
+ }
+
+ .allServicesBtn::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 5px;
+    background:  var(--darkblue);
+    z-index: 1;
+    transition: all 0.3s;
+    cursor: pointer;
+ }
+
+ .allServicesBtn:hover::after{
+    background-color: var(--darkblue);
+    width: 100%;
+    color: white;
+ }
+
+ .serviceBtnContainer{
+    margin-top: 80px;
+ }
+
+.profileContent{
+    text-align: center;
+    padding: 10px;
+    padding-top: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

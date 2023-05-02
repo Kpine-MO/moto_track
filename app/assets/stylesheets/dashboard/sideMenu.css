@@ -1,0 +1,135 @@
+#nav ul {
+    position: absolute;
+    left: 0px;
+    height: 100vh;
+    transition: 0.3s;
+    padding: 0 15px;
+    width: 70px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border-radius: 0 5px 5px 0;
+    top: 0;
+    bottom: 0;
+    display: block;
+    background-color: white;
+    display: block;
+    padding-left: 20px;
+    overflow: auto;
+}
+
+.sideNav{
+    position: fixed;
+}
+       
+#nav ul:hover {
+    left: 0;
+    width: 21%;
+}
+
+#nav ul li:hover{
+    background-color: rgba(215, 238, 251, 0.5);
+    color: var(--blue);
+}
+   
+#nav ul li{
+    position: absolute;
+    cursor: pointer;
+    list-style:none;
+    font-size: 0.75em;
+    color: black;
+    text-decoration: none;
+    display: none;
+    margin-bottom: 15px;
+    transition: all 0.3s ease-in-out;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 205px;
+    height: fit-content;
+    margin-left: 0px;
+}
+
+
+#nav ul:hover li {
+    display: inline;
+}
+
+
+.sideMenu {
+    height: fit-content;
+    position: absolute;
+    overflow: hidden;
+}
+   
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.dashHeaders{
+    font-size: 0.7em;
+    text-transform: uppercase;
+    color: var(--blue);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    width: 200px;
+    overflow: hidden;
+}
+
+#nav ul:hover .dashHeaders{
+    opacity: 1;
+}
+
+.logoMenu{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+    background-color: #1e69b8;
+    transition: all 0.3s;
+}
+
+#nav ul:hover .logoMenu{
+    width: 240px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.logoMenu h2{
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-left: 30px;
+    text-transform:capitalize;
+    transition: all 0.3s;
+    margin-top: 20px;
+    width: 70px;
+    display: none;
+}
+
+#nav ul:hover .logoMenu h2{
+    width: 240px;
+    display: inline-block;
+}
+
+.dashLinks{
+    padding-left: -40px;
+    text-transform: capitalize;
+}
+
+.dashDisplay{
+    padding-left: 10px;
+}
+
+.menuDisplay{
+    display: flex !important;
+    height: fit-content !important;
+}
+
+.menuDisplayRight{
+    margin-top: 70px;
+    margin-left: 30px;
+}

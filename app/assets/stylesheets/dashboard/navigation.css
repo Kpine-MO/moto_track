@@ -1,0 +1,44 @@
+
+
+#navbar {
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.8s;
+    height: 70px;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+#navbarLeft{
+    display: flex;
+    margin-left: 50px;
+    text-align: center;
+}
+
+#navbarRight{
+    display: flex;
+}
+
+svg{
+    cursor: pointer;
+}
+
+.profileDivider{
+    height: 35px;
+    width: 1px;
+    margin: 0 10px;
+    background-color: var(--grayLL);
+}
+
+.mainNavLogo{
+    color: #556ee6 !important;
+}
+
+

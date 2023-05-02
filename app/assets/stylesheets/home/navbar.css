@@ -1,0 +1,66 @@
+/* <%= link_to "MotoTrack", root_path, class:"navbar-brand", :color=> blue%> */
+
+
+/* .accessBtnSignUp{
+    background-color: var(--blue);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.accessBtnSignIn{
+    background-color: white;
+    color: var(--blue);
+    border: 1px solid var(--gray);
+    padding: 10px;
+    border-radius: 4px;
+} */
+
+.navbar{
+    background-color: white;
+    height: 70px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+
+
+/* .navbar a{
+    color: var(--gray);
+    transition: color 1s;
+}
+
+.navbar a:hover{
+    color: var(--blue);
+} */
+
+.nav-item a{
+    color: var(--gray);
+    transition: color 0.5s;
+    list-style: none;
+    margin: 0 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.nav-item a:hover{
+    color: var(--blue);
+}
+
+.logo a{
+    color: var(--blue);
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+ul{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    list-style: none;
+}
+
+ul a{
+    font-weight: lighter;
+    font-size: 0.95em;
+}
+
+

@@ -1,0 +1,7 @@
+.border{
+    background-color: var(--blue);
+    height: 4px;
+    width:90px;
+    border-radius: 20px;
+    margin-top: 20px;
+}

@@ -1,0 +1,16 @@
+.topPageUp{
+    position: absolute;
+    background-color: var(--blue);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    right: 20px;
+    bottom: 100px;
+    transition: .5s all;
+   }
+
+ .topPageUp:hover{
+    color: white;
+ }  
+  

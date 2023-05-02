@@ -1,0 +1,33 @@
+.formHeaders{
+    text-transform: capitalize;
+    font-size: xx-large;
+    text-align: center;
+    width: 100%;
+    margin-top: -30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid black;
+}
+
+.edit{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.editForm{
+    background-color: white;
+    height: 600px;
+    padding: 50px;
+    border-radius: 12px;
+    position: absolute;
+    width: fit-content;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}

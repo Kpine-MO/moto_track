@@ -1,0 +1,64 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree 
+ *= require_self
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:wght@700&display=swap');
+ @import" font-awesome";
+
+ *{
+    font-family: 'Montserrat', sans-serif;
+} 
+ 
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+
+
+html{ 
+    scroll-behavior: smooth; 
+}
+
+:root {
+    --gray: #727272;
+    --grayLL: rgba(114, 114, 114, 0.6);
+    --grayLLL: rgba(114, 114, 114, 0.1);
+    --grayLLLMenu: rgba(114, 114, 114, 0.7);
+    --grayLight: #878787;
+    --blue: #1e69b8;
+    --darkblue: rgba(27, 92, 161, 0.5);
+    --panelBCG: #f3f3f9;
+    color: rgb(242, 199, 211, 0.5);
+}
+
+.centerBtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ }
+
+ .slimHeaders{
+    text-align: center;
+    font-size: 2.5em;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: rgb(66, 66, 66);
+    width: 100%;
+}
+

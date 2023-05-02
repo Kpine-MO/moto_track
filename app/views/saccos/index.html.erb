@@ -1,0 +1,39 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Sacco List</h1>
+
+
+<div class="container mt-5 mb-3 flex">
+  <% @saccos.each do |sacco| %>
+    <div class="row">
+        <div class="cardSpacing">
+            <div class="card p-3 mb-3" style=" margin: 5px;">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex flex-row align-items-center">
+                        <div class="icon"> <i class="bx bxl-reddit"></i> </div>
+                        <div class="ms-2 c-details">
+                            <h6 class="mb-0"><%= sacco.created_by %></h6> <span>2 days ago</span>
+                        </div>
+                    </div>
+                    <div class="badge"> <span><%= link_to "visit", sacco %></span> </div>
+                </div>
+                <div class="mt-5">
+                    <h3 class="heading"><%= sacco.name %><br>Sacco - Kenya</h3>
+                    <div class="mt-5">
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar primary" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="mt-3"> <span class="text1">52 Applied <span class="text2">of 100 capacity</span></span> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <% end %>
+</div>
+
+<%= link_to "Add Sacco", new_sacco_path, class:"btn btn-secondary" %>
+
+
+
